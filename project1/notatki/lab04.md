@@ -2,7 +2,7 @@
 
 W labie utworzyłem wspólne foldery dla Zielonego Domu. Dostęp przypisałem grupom utworzonym w labie 2, a mapowanie dysku S: skonfigurowałem przez GPO.
 
-Pliki znajdują się na DC01. W tym laboratorium jeden serwer pełni rolę kontrolera domeny i serwera plików.
+Jeden serwer pełni rolę kontrolera domeny i serwera plików.
 
 ## Foldery i dostęp
 
