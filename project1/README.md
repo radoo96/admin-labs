@@ -5,5 +5,6 @@
 1. [Serwer i domena](notatki/lab01.md)
 2. [Konta, grupy i OU](notatki/lab02.md)
 3. [Zasady grupy (GPO)](notatki/lab03.md)
+4. [Foldery i uprawnienia](notatki/lab04.md)
 
 [← Wszystkie projekty](../README.md)
