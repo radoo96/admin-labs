@@ -7,3 +7,4 @@ Notatki z ćwiczeń
 ## Ćwiczenia
 
 - [Lab 1 — pierwszy kontroler domeny i dołączenie PC01](notatki/lab01.md)
+- [Lab 2 — konta, grupy i OU w Active Directory](notatki/lab02.md)
