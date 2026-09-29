@@ -1,6 +1,4 @@
-Scenariusz: Fikcyjne biuro nieruchomości z 12 pracownikami w jednym biurze. Wdrożenie i administracja Windows Server, Active Directory, Entra ID, Intune, Exchange, Teams, SharePoint, Copilot
-
-# Lab 1 — pierwszy kontroler domeny
+# Lab 1 — instalacja kontrolera domeny
 
 W tym labolatorium skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do niej komputer z Windows 11 Pro. Całość działa w VirtualBox, w ramach środowiska testowego fikcyjnej firmy.
 
