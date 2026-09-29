@@ -26,7 +26,7 @@ Obie maszyny korzystają z sieci NAT Network `ZielonyDom`.
 Kontroler domeny widoczny na PC01 
 <img width="788" height="397" alt="image" src="https://github.com/user-attachments/assets/ede63597-75b6-4ae2-92c9-4a524002df7e" />
 
-PC01 dostępny w AD
+PC01 dostępny w kontrolerze domeny
 
 <img width="1018" height="771" alt="image" src="https://github.com/user-attachments/assets/3ad2eefd-8696-46b9-84e5-2304c8c62aa4" />
 
