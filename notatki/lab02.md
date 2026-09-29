@@ -23,9 +23,9 @@ Utworzyłem pięć kont pracowników:
 
 | Login | Grupa |
 |---|---|
-| ewa.zielinska | GRP-Zarzad |
+| ewa.kowalska | GRP-Zarzad |
 | adam.nowak | GRP-Sprzedaz |
-| beata.kowalska | GRP-Sprzedaz |
+| beata.nowak | GRP-Sprzedaz |
 | celina.wisniewska | GRP-Ksiegowosc |
 | daniel.wojcik | GRP-Recepcja |
 
