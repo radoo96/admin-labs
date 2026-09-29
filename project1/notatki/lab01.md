@@ -1,5 +1,4 @@
-Scenariusz: Fikcyjne biuro nieruchomości z 12 pracownikami w jednym biurze. 
-Wdrożenie AD, Entry ID oraz Intune w firmie.
+Scenariusz: Fikcyjne biuro nieruchomości z 12 pracownikami w jednym biurze. Wdrożenie i administracja Windows Server, Active Directory, Entra ID, Intune, Exchange, Teams, SharePoint, Copilot
 
 # Lab 1 — pierwszy kontroler domeny
 
