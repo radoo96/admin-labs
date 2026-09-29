@@ -6,7 +6,7 @@ Pracowałem na maszynach DC01 i PC01 z poprzedniego labu.
 
 ## Organizacja AD
 
-Utworzyłem OU `ZielonyDom`, a w nim:
+Utworzyłem OU `ZielonyDom`, a w nim: 
 
 | OU | Przeznaczenie |
 |---|---|
