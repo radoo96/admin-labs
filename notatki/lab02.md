@@ -50,6 +50,7 @@ Na potrzeby testu ustawiłem w `Default Domain Policy` próg blokady konta na 5 
   <img width="642" height="512" alt="image" src="https://github.com/user-attachments/assets/44d17f5d-b6dc-41d1-8d94-0aec5fff3e7e" />
 
 
+
 Struktura OU
 
 <img width="781" height="472" alt="image" src="https://github.com/user-attachments/assets/2fe69035-7868-4b3f-a996-663b052ec620" />
