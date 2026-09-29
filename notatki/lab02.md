@@ -37,13 +37,17 @@ Na potrzeby testu ustawiłem w `Default Domain Policy` próg blokady konta na 5 
 
 ## Sprawdzenie działania
 
-- Zmiana hasła przy pierwszym logowaniu: <img width="667" height="525" alt="image" src="https://github.com/user-attachments/assets/b6cb9032-bbf5-486d-9eac-fd3368129222" />
+- Zmiana hasła przy pierwszym logowaniu:
+ <img width="667" height="525" alt="image" src="https://github.com/user-attachments/assets/b6cb9032-bbf5-486d-9eac-fd3368129222" />
 
-- Wynik `whoami`: <img width="705" height="335" alt="image" src="https://github.com/user-attachments/assets/29ba921d-c746-4d1e-b5b9-87078dc75f69" />
+- Wynik `whoami`:
+  <img width="705" height="335" alt="image" src="https://github.com/user-attachments/assets/29ba921d-c746-4d1e-b5b9-87078dc75f69" />
 
-- Próba logowania na wyłączone konto: <img width="733" height="493" alt="image" src="https://github.com/user-attachments/assets/0a190d0c-b706-4d45-a630-a956fb29c584" />
+- Próba logowania na wyłączone konto:
+  <img width="733" height="493" alt="image" src="https://github.com/user-attachments/assets/0a190d0c-b706-4d45-a630-a956fb29c584" />
 
-- Wynik wpisania 5 razy złego hasła: <img width="642" height="512" alt="image" src="https://github.com/user-attachments/assets/44d17f5d-b6dc-41d1-8d94-0aec5fff3e7e" />
+- Wynik wpisania 5 razy złego hasła:
+  <img width="642" height="512" alt="image" src="https://github.com/user-attachments/assets/44d17f5d-b6dc-41d1-8d94-0aec5fff3e7e" />
 
 
 Struktura OU
