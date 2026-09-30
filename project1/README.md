@@ -12,5 +12,6 @@
 8. [Intune - zarządzanie komputerami](notatki/lab08.md)
 9. [Intune - Aplikacje i aktualizacje](notatki/lab09.md)
 10. [Połączenie AD z chmurą — Cloud Sync](notatki/lab10.md)
+11. [Intune-Autopilot — zdalne przygotowanie komputera](../Intune/lab01.md)
 
 [← Wszystkie projekty](../README.md)
