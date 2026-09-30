@@ -8,5 +8,6 @@
 4. [Foldery i uprawnienia](notatki/lab04.md)
 5. [DHCP i DNS](notatki/lab05.md)
 6. [Microsoft 365 i Entra ID](notatki/lab06.md)
+7. [Bezpieczne logowanie — MFA, Dostep warunkowy, Samodzielny reset hasła](notatki/lab07.md)
 
 [← Wszystkie projekty](../README.md)
