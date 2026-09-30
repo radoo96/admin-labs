@@ -1,4 +1,4 @@
-# Windows Autopilot
+# Intune Autopilot
 
 W tym labie przygotowałem automatyczną konfigurację komputera dla pracownika zdalnego. Wykorzystałem Windows Autopilot device preparation, Intune i konto Hanny.
 
