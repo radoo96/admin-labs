@@ -12,4 +12,5 @@
 8. [Intune — zarządzanie komputerami](notatki/lab08.md)
 9. [Aplikacje i aktualizacje](notatki/lab09.md)
 10. [Połączenie AD z chmurą — Cloud Sync](notatki/lab10.md)
+
 [← Wszystkie projekty](../README.md)
