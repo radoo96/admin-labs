@@ -9,7 +9,7 @@
 5. [DHCP i DNS](notatki/lab05.md)
 6. [Microsoft 365 i Entra ID](notatki/lab06.md)
 7. [Bezpieczne logowanie — MFA, Dostep warunkowy, Samodzielny reset hasła](notatki/lab07.md)
-8. [Intune — zarządzanie komputerami](notatki/lab08.md)
+8. [Intune - zarządzanie komputerami](notatki/lab08.md)
 9. [Intune - Aplikacje i aktualizacje](notatki/lab09.md)
 10. [Połączenie AD z chmurą — Cloud Sync](notatki/lab10.md)
 
