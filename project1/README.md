@@ -15,5 +15,6 @@
 11. [Intune-Autopilot — zdalne przygotowanie komputera](../Intune/lab01.md)
 12. [Poczta — Exchange Online](notatki/lab12.md)
 13. [Pliki w chmurze — SharePoint i OneDrive](notatki/lab13.md)
+14. [Microsoft Teams — kanały, spotkania i goście](notatki/lab14.md)
 
 [← Wszystkie projekty](../README.md)
