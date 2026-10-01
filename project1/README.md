@@ -14,5 +14,6 @@
 10. [Połączenie AD z chmurą - Cloud Sync](notatki/lab10.md)
 11. [Intune-Autopilot — zdalne przygotowanie komputera](../Intune/lab01.md)
 12. [Poczta — Exchange Online](notatki/lab12.md)
+13. [Pliki w chmurze — SharePoint i OneDrive](notatki/lab13.md)
 
 [← Wszystkie projekty](../README.md)
