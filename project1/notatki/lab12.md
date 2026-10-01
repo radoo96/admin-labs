@@ -1,7 +1,6 @@
 # Lab 12 — Exchange Online
 
-W tym ćwiczeniu skonfigurowałem wspólną skrzynkę biura, listę dystrybucyjną sprzedaży i automatyczną odpowiedź dla pracownika. Sprawdziłem też dostarczenie wiadomości w Message trace.
-
+W tym labie skonfigurowałem wspólną skrzynkę biura, listę dystrybucyjną sprzedaży i automatyczną odpowiedź dla pracownika.
 Korzystałem z Microsoft 365 admin center, Exchange admin center i Outlooka w przeglądarce.
 
 ## Skrzynki i adresy
