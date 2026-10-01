@@ -6,11 +6,9 @@ W tym ćwiczeniu przygotowałem zespół biura w Teams, kanały do rozmów i pry
 
 Utworzyłem prywatny zespół `Biuro Zielony Dom`.
 
-- Właściciel: Ewa.
-
 <img width="1427" height="707" alt="image" src="https://github.com/user-attachments/assets/aee35637-e17c-42ae-b95e-b43ac286c890" />
 
-Na koncie Adama sprawdziłem widoczność zespołu i opublikowałem wiadomość testową
+Na koncie Filipa sprawdziłem widoczność zespołu i opublikowałem wiadomość testową
 
 <img width="1625" height="617" alt="image" src="https://github.com/user-attachments/assets/a620fa2f-f660-40b2-adc9-8c14d99f86e1" />
 
