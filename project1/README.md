@@ -1,4 +1,4 @@
-# Projekt 1 — Fikcyjne biuro nieruchomości z 12 pracownikami w jednym biurze. Wdrożenie i administracja Windows Server, Active Directory, Entra ID, Intune, Exchange, Teams, SharePoint, Copilot
+# Projekt 1 — Fikcyjne biuro nieruchomości. Wdrożenie i administracja Windows Server, Active Directory, Entra ID, Intune, Exchange, Teams, SharePoint, Copilot
 
 ## Laby
 
