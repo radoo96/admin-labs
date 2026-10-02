@@ -74,9 +74,3 @@ W Audit logs odszukałem operacje związane z nadaniem ról.
 Sprawdziłem wykonawcę, obiekt docelowy, czas i wynik operacji.
 
 <img width="858" height="26" alt="image" src="https://github.com/user-attachments/assets/61c9b896-660a-41d7-a888-0e28185009ba" />
-
-## Moje uwagi
-
-[Opisz napotkany problem lub obserwację, np. opóźnienie działania roli albo wynik testu odmowy dostępu.]
-
-[← Lista labów Entra](README.md)
