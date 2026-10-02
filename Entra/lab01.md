@@ -66,7 +66,6 @@ Skonfigurowałem wygląd strony logowania oraz tekst informacyjny dla pracownik�
 | Restrict access to Microsoft Entra admin center | Yes |
 | LinkedIn account connections | No |
 | Users can create security groups | No |
-| Users can create Microsoft 365 groups | No |
 
 W scenariuszu przyjąłem, że nowe grupy i zespoły tworzy administrator na prośbę pracowników.
 
