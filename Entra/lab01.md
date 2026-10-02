@@ -30,7 +30,7 @@ Pobrałem szablon z portalu, zachowałem wiersz wersji i nagłówki, a plik zapi
 
 <img width="1800" height="252" alt="image" src="https://github.com/user-attachments/assets/a5d8752e-2c85-4218-afad-6d56f814eb9a" />
 
-<img width="1447" height="508" alt="image" src="https://github.com/user-attachments/assets/a59246ec-8f14-4ff9-b716-c3d7519af3b6" />
+<img width="1651" height="617" alt="image" src="https://github.com/user-attachments/assets/4667d875-c09d-4611-b060-e8aba48f0e9c" />
 
 ## Grupy
 
