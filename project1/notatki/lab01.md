@@ -1,6 +1,6 @@
 # Lab 1 — instalacja kontrolera domeny
 
-W tym labolatorium skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do niej komputer z Windows 11 Pro. Całość działa w VirtualBox, w ramach środowiska testowego fikcyjnej firmy.
+W ćwiczeniu skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do niej komputer z Windows 11 Pro. Całość działa w VirtualBoxie.
 
 ## Środowisko
 
@@ -9,9 +9,8 @@ W tym labolatorium skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem
 | DC01 | Windows Server 2025 | Kontroler domeny i DNS | 192.168.10.10 |
 | PC01 | Windows 11 Pro | Komputer w domenie | 192.168.10.101 |
 
-Obie maszyny korzystają z sieci NAT Network `ZielonyDom`.
 
-## Co zrobiłem
+Obie maszyny korzystają z sieci NAT Network `ZielonyDom`.
 
 - Zainstalowałem DC01, zmieniłem nazwę serwera i ustawiłem stały adres IP.
 - Dodałem rolę AD DS i utworzyłem las `ad.zielonydom.test`.
