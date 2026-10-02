@@ -57,7 +57,7 @@ Utworzyłem grupę zabezpieczeń `GRP-Rola-Helpdesk` z ustawieniami:
 | Microsoft Entra roles can be assigned to the group | Yes |
 | Membership type | Assigned |
 | Przypisana rola | Helpdesk Administrator |
-| Członek | adm-ewa.sowa |
+| Członek | adm-ewa.bak |
 
 Najpierw przypisałem rolę grupie i dodałem Ewę jako członka. Następnie usunąłem jej bezpośrednie przypisanie Helpdesk Administrator.
 
