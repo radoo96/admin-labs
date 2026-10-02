@@ -13,7 +13,7 @@ W ćwiczeniu skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do ni
 | Maszyna | System | Rola | Adres IP |
 |---|---|---|---|
 | DC01 | Windows Server 2025 | Kontroler domeny i DNS | 192.168.10.10 |
-| PC01 | Windows 11 Pro | Komputer w domenie | 192.168.10.101 |
+| PC01 | Windows 11 Enterprise | Komputer w domenie | 192.168.10.101 |
 
 
 Obie maszyny korzystają z sieci NAT Network `ZielonyDom`.
