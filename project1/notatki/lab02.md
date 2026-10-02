@@ -1,6 +1,9 @@
 # Lab 2 — konta, grupy i OU w Active Directory
 
-Kontynuacja konfiguracji domeny `ad.zielonydom.test`. W tym ćwiczeniu uporządkowałem obiekty w AD, utworzyłem konta pracowników i przypisałem je do grup działowych.
+- Utworzenie folderów w AD (OU)
+- Założenie 5 kont pracowników i 2 konta dla siebie: zwykłe i administracyjne.
+- Utworzenie grupy działów i dodasz do nich ludzi.
+- Zresetowanie hasła, odblokowanie zablokowanego konta i włączenie
 
 Pracowałem na maszynach DC01 i PC01 z poprzedniego labu.
 
@@ -54,8 +57,6 @@ Na potrzeby testu ustawiłem w `Default Domain Policy` próg blokady konta na 5 
   <img width="642" height="512" alt="image" src="https://github.com/user-attachments/assets/44d17f5d-b6dc-41d1-8d94-0aec5fff3e7e" />
 
 
-
-
 Struktura OU
 
 <img width="781" height="472" alt="image" src="https://github.com/user-attachments/assets/2fe69035-7868-4b3f-a996-663b052ec620" />
@@ -65,6 +66,3 @@ Struktura OU
 <img width="748" height="357" alt="image" src="https://github.com/user-attachments/assets/87a56b22-8c5c-47ba-b604-2b365ae0d939" />
 
 <img width="775" height="372" alt="image" src="https://github.com/user-attachments/assets/db56b8b0-1844-4fa9-b5ef-dd8e0059e508" />
-
-
-
