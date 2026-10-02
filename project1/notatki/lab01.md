@@ -2,6 +2,12 @@
 
 W ćwiczeniu skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do niej komputer z Windows 11 Pro. Całość działa w VirtualBoxie.
 
+- Instalacja DC01, zmienienie nazwy serwera i ustawienie stałego adresu IP.
+- Dodanie roli AD DS i utworzenie lasu `ad.zielonydom.test`.
+- Na PC01 ustawienie DNS na `192.168.10.10`.
+- Dołączenie PC01 do domeny i sprawdzenie logowania kontem domenowym.
+
+
 ## Środowisko
 
 | Maszyna | System | Rola | Adres IP |
@@ -11,11 +17,6 @@ W ćwiczeniu skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do ni
 
 
 Obie maszyny korzystają z sieci NAT Network `ZielonyDom`.
-
-- Zainstalowałem DC01, zmieniłem nazwę serwera i ustawiłem stały adres IP.
-- Dodałem rolę AD DS i utworzyłem las `ad.zielonydom.test`.
-- Na PC01 ustawiłem DNS na `192.168.10.10`.
-- Dołączyłem PC01 do domeny i sprawdziłem logowanie kontem domenowym.
 
 ## Sprawdzenie
 
