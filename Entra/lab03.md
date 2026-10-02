@@ -2,6 +2,12 @@
 
 W tym ćwiczeniu zautomatyzowałem przypisywanie licencji pracownikom. Utworzyłem grupę dynamiczną, przeniosłem licencje z przypisań bezpośrednich na grupowe i sprawdziłem działanie na nowym koncie.
 
+- Utworzenie grupy dynamicznej wszystkich pracowników i przetestowanie jej reguły.
+- Przypisanie licencji grupie i usuniecie przypisania ręcznie.
+- Zmiana grupy działów na dynamiczną.
+- Założenie konta nowej pracownicy i sprawdzenie automatycznego przypisania.
+- Sprawdzenie, co się dzieje z licencją po wyłączeniu konta.
+
 ## Grupa pracowników
 
 Utworzyłem grupę zabezpieczeń `DYN-Pracownicy` z członkostwem typu Dynamic User.
