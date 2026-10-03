@@ -130,17 +130,7 @@ Zmiana grupy oraz zmiana uprawnień to dwie oddzielne operacje. Nowe pliki równ
 
 ## Testy dostępu
 
-Testowałem nowe połączenia SSH z komputera gospodarza.
-
-```bash
-ssh -p 2222 tomek.lewandowski@127.0.0.1
-ssh -p 2222 adm-michal.bak@127.0.0.1
-ssh -p 2222 piotr.zielinski@127.0.0.1
-```
 
 <img width="642" height="97" alt="image" src="https://github.com/user-attachments/assets/c3fdfbd3-750a-485d-afbe-1dca5e8d4bb4" />
 
 <img width="355" height="125" alt="image" src="https://github.com/user-attachments/assets/b99875c4-cf64-45bf-a435-e5a49ebf43bf" />
-- Migawki DC01 i LNX01 po zakończeniu: **[wpisz nazwy wykonanych migawek]**.
-
-[← Lista labów FIRMA](README.md)
