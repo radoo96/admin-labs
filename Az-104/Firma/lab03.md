@@ -1,4 +1,4 @@
-# Lab 4 — serwer Linux
+# Lab 3 — serwer Linux
 
 - Zainstalowanie Ubuntu Server ze stałym adresem IP
 - Instalowanie programów i aktualizacja systemu
