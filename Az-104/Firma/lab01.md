@@ -115,7 +115,6 @@ Utworzyłem nowy las z ustawieniami:
 | Nazwa NetBIOS | FIRMA |
 | Serwer DNS | Włączony |
 | Global Catalog | Włączony |
-| Poziom funkcjonalności lasu i domeny |
 
 <img width="1466" height="391" alt="image" src="https://github.com/user-attachments/assets/572a79c3-83c2-4b35-a109-7dee240af466" />
 
