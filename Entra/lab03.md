@@ -1,7 +1,5 @@
 # Lab 3 — licencje i grupy dynamiczne
 
-W tym ćwiczeniu zautomatyzowałem przypisywanie licencji pracownikom. Utworzyłem grupę dynamiczną, przeniosłem licencje z przypisań bezpośrednich na grupowe i sprawdziłem działanie na nowym koncie.
-
 - Utworzenie grupy dynamicznej wszystkich pracowników i przetestowanie jej reguły.
 - Przypisanie licencji grupie i usuniecie przypisania ręcznie.
 - Zmiana grupy działów na dynamiczną.
@@ -30,7 +28,7 @@ Przed zapisaniem sprawdziłem regułę w Validate Rules.
 |---|---|---|
 | Marta | Spełnia regułę | 
 | Kuba | Spełnia regułę | 
-| adm-ewa.sowa | Nie spełnia reguły | 
+| adm-ewa | Nie spełnia reguły | 
 
 <img width="1642" height="466" alt="image" src="https://github.com/user-attachments/assets/339112bd-742f-4c55-9136-bc677d249f9d" />
 
