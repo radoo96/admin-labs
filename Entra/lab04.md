@@ -1,4 +1,4 @@
-# Lab 4 — MFA i metody logowania
+# Lab 4 — MFA
 
 - Ustawienie Microsoft Authenticator tak, żeby pokazywał nazwę aplikacji i miejsce logowania.
 - Przeprowadzenie rejestracji metod
@@ -60,9 +60,3 @@ Przećwiczyłem procedurę odzyskania dostępu:
 <img width="1560" height="693" alt="image" src="https://github.com/user-attachments/assets/b0f365d6-949f-454b-997d-3a4c3fb18a0a" />
 
 <img width="522" height="645" alt="image" src="https://github.com/user-attachments/assets/4ed127c3-ef38-4a87-b6fb-eb077c88f3bf" />
-
-- Najważniejsza obserwacja: **[uzupełnij]**.
-- Problem podczas ćwiczenia: **[uzupełnij albo wpisz „brak”]**.
-- Rozwiązanie: **[uzupełnij]**.
-
-[← Lista labów Entra ID](README.md)
