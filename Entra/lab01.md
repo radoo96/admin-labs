@@ -1,10 +1,8 @@
 # Lab 1 — użytkownicy, grupy i ustawienia firmy
 
-W ćwiczeniu przygotowałem konta i podstawowe ustawienia Microsoft Entra ID dla fikcyjnej firmy.
-
 - Utworzenie jednej osoby ręcznie i pięć z pliku CSV.
-- Utworzenie grupy działów i dwa typy grup.
-- Ustawienie wygląd strony logowania firmy.
+- Utworzenie grupy działów 
+- Ustawienie wyglądu strony logowania firmy.
 - Ograniczenie pracownikom zakładanie grup, aplikacji i wchodzenie do portalu admina.
 
 ## Konta pracowników
@@ -18,15 +16,14 @@ W ćwiczeniu przygotowałem konta i podstawowe ustawienia Microsoft Entra ID dla
 | Kuba Bąk | kuba.bak | ObslugaKlienta | Opiekun klienta |
 | Ewa Bąk | ewa.bak | Biuro | Asystentka biura |
 
-Dla pracowników ustawiłem Usage location na Polskę. Uzupełniłem też dział i stanowisko swojego zwykłego konta.
+Dla pracowników ustawiłem Usage location na Polskę.
 
-Nazwy działów zapisałem według jednej konwencji, aby później wykorzystać je w regułach grup dynamicznych.
 
 ## Import CSV
 
 Joannę utworzyłem przez formularz New user. Pozostałych pięć osób dodałem przez `Bulk create`.
 
-Pobrałem szablon z portalu, zachowałem wiersz wersji i nagłówki, a plik zapisałem jako CSV UTF-8.
+Pobrałem szablon z portalu, a plik zapisałem jako CSV UTF-8.
 
 <img width="1800" height="252" alt="image" src="https://github.com/user-attachments/assets/a5d8752e-2c85-4218-afad-6d56f814eb9a" />
 
