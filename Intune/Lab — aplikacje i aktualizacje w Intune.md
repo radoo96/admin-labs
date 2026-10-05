@@ -1,4 +1,4 @@
-# Lab — aplikacje i aktualizacje
+# Lab — Intune aplikacje i aktualizacje
 
 
 ## Wdrażanie aplikacji
