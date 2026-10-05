@@ -78,8 +78,4 @@ Było to ręczne oznaczenie konta na potrzeby testu, a nie dowód wykrycia rzecz
 
 <img width="731" height="198" alt="image" src="https://github.com/user-attachments/assets/c7710e48-5945-45ea-8def-4fe1d7296223" />
 
-## Alerty i stan końcowy
-
-Alerty o ryzyku High oraz cotygodniowe podsumowanie skierowałem na monitorowaną skrzynkę użytkownika, nie na konto administracyjne bez poczty.
-
 <img width="565" height="642" alt="image" src="https://github.com/user-attachments/assets/6173c3ba-ad90-43ec-98db-8e15026416e9" />
