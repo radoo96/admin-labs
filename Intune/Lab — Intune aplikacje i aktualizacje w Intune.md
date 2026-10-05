@@ -1,8 +1,5 @@
 # Lab — aplikacje i aktualizacje
 
-W tym labie wdrożyłem aplikacje przez Intune, skonfigurowałem dwa pierścienie aktualizacji Windows i przygotowałem PC03 dla Gabrieli jako użytkownika bez lokalnych praw administratora.
-
-Korzystałem z PC02 Filipa oraz nowej maszyny PC03 z Windows 11 Enterprise.
 
 ## Wdrażanie aplikacji
 
