@@ -1,4 +1,4 @@
-# Lab 9 — aplikacje i aktualizacje
+# Lab — aplikacje i aktualizacje
 
 W tym labie wdrożyłem aplikacje przez Intune, skonfigurowałem dwa pierścienie aktualizacji Windows i przygotowałem PC03 dla Gabrieli jako użytkownika bez lokalnych praw administratora.
 
