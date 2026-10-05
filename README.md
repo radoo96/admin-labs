@@ -6,4 +6,4 @@
 
 - [Microsoft Entra ID](Entra/)
 
-- [AZ-104 — środowisko FIRMA: Windows Server, Linux i Azure](Az-104/Firma/)
+- [AZ-104](Az-104/Firma/)
