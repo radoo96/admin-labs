@@ -1,8 +1,5 @@
 # Lab 2 — role administratorów
 
-W tym ćwiczeniu rozdzieliłem zadania administracyjne w środowisku. Utworzyłem osobne konta administracyjne dla Ewy i Joanny, przetestowałem ich uprawnienia i przeniosłem rolę helpdesku z przypisania bezpośredniego na grupę.
-
-- Przejrzenie wbudowanych ról i ich uprawnienia.
 - Założenie konta admina dla Ewy i Joanny, osobne od ich kont do pracy.
 - Nadanie im najmniejszych ról i sprawdzenie, czego nie mogą.
 - Przeniesienie roli Ewy na grupę z możliwością przypisywania ról.
@@ -20,6 +17,7 @@ W tym ćwiczeniu rozdzieliłem zadania administracyjne w środowisku. Utworzyłe
 Konta administracyjne oddzieliłem od kont używanych do codziennej pracy. Skonfigurowałem MFA i pozostawiłem puste pole Department, aby konta te nie trafiały do planowanych grup pracowników opartych na dziale.
 
 W ramach labu przypisane jako "aktywne" jako test
+
 <img width="567" height="592" alt="image" src="https://github.com/user-attachments/assets/4f4fe065-907d-4b87-8e3e-632c0178137f" />
 
 <img width="1562" height="492" alt="image" src="https://github.com/user-attachments/assets/a87a7d14-3b46-4ee7-adaa-6154e15f3a2e" />
@@ -57,7 +55,7 @@ Utworzyłem grupę zabezpieczeń `GRP-Rola-Helpdesk` z ustawieniami:
 | Microsoft Entra roles can be assigned to the group | Yes |
 | Membership type | Assigned |
 | Przypisana rola | Helpdesk Administrator |
-| Członek | adm-ewa.bak |
+| Członek | adm-ewa |
 
 Najpierw przypisałem rolę grupie i dodałem Ewę jako członka. Następnie usunąłem jej bezpośrednie przypisanie Helpdesk Administrator.
 
@@ -70,7 +68,5 @@ Po ponownym zalogowaniu sprawdziłem reset hasła Pawła.
 ## Dziennik zmian
 
 W Audit logs odszukałem operacje związane z nadaniem ról.
-
-Sprawdziłem wykonawcę, obiekt docelowy, czas i wynik operacji.
 
 <img width="858" height="26" alt="image" src="https://github.com/user-attachments/assets/61c9b896-660a-41d7-a888-0e28185009ba" />
