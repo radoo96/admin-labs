@@ -1,6 +1,6 @@
 # Lab 5 — Reset hasła, TAP i inteligenta blokada
 
-- Włączenie samoobsługowy reset hasła (SSPR) dla wszystkich pracowników.
+- Włączenie samoobsługowego resetu hasła (SSPR) dla wszystkich pracowników.
 - Ile metod potrzeba do resetu, i ustawienie rejestracji
 - Przetestowanie resetu hasła
 - Danie Ewie roli do wydawania kodu jednorazowego (TAP)
@@ -53,16 +53,16 @@ https://aka.ms/sspr
 
 | Test | Wynik |
 |---|---|
-| Kuba należy do `DYN-Pracownicy` | [uzupełnij] |
-| Ma dwie dostępne metody resetu | [uzupełnij] |
-| Reset wymaga dwóch potwierdzeń | [uzupełnij] |
-| Logowanie nowym hasłem działa | [uzupełnij] |
-| Powiadomienie o resecie dotarło | [uzupełnij] |
-| Operacja jest widoczna w Audit logs | [uzupełnij] |
+| Kuba należy do `DYN-Pracownicy` | OK |
+| Ma dwie dostępne metody resetu | OK |
+| Reset wymaga dwóch potwierdzeń | OK |
+| Logowanie nowym hasłem działa | OK |
+| Powiadomienie o resecie dotarło | OK |
+| Operacja jest widoczna w Audit logs | OK |
 
 ## Temporary Access Pass
 
-TAP wykorzystałem w scenariuszu, w którym Ola Bury straciła telefon i nie pamiętała hasła.
+TAP wykorzystałem w scenariuszu, w którym Ola straciła telefon i nie pamiętała hasła.
 
 <img width="696" height="465" alt="image" src="https://github.com/user-attachments/assets/baaa2995-e4e0-4fab-aab9-36d463d96069" />
 
@@ -73,17 +73,6 @@ TAP wykorzystałem w scenariuszu, w którym Ola Bury straciła telefon i nie pam
 <img width="697" height="557" alt="image" src="https://github.com/user-attachments/assets/b3050cc4-11c1-4a21-84d7-21c047502b65" />
 
 <img width="580" height="300" alt="image" src="https://github.com/user-attachments/assets/e095117a-262d-49bc-bff5-d6b98534d87d" />
-
-
-
-| Ustawienie | Wartość |
-|---|---|
-| Temporary Access Pass | Enabled |
-| Zakres w labie | All users |
-| Domyślna ważność | 1 godzina |
-| Jednorazowe użycie | Yes |
-| Konto obsługujące zgłoszenie | `adm-ewa.sowa` |
-| Dodana rola | Authentication Administrator |
 
 TAP może być jednorazowy albo wielokrotny. W tym ćwiczeniu wybrałem kod jednorazowy.
 
@@ -100,59 +89,25 @@ Ewie nadałem rolę umożliwiającą zarządzanie metodami zwykłych pracownikó
 
 TAP umożliwia odzyskanie dostępu i rejestrację metod. Samo jego wydanie nie zmienia hasła użytkownika.
 
-| Test | Wynik |
-|---|---|
-| Ewa może wydać TAP Oli | [uzupełnij] |
-| Pierwsze logowanie kodem działa | [uzupełnij] |
-| Rejestracja nowych metod działa | [uzupełnij] |
-| Ponowne użycie kodu w nowym logowaniu jest odrzucone | [uzupełnij] |
-| Ola może zresetować hasło i zalogować się | [uzupełnij] |
-
-Kodu TAP, haseł i kodów QR nie zapisuję w dokumentacji repozytorium.
-
 ## Ochrona haseł
-
 
 <img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/26ef2f5b-821c-4bdf-b206-37a366b76233" />
 
-
-Włączyłem własną listę zakazanych haseł i dodałem:
-
-```text
-Rachmistrz
-rachunkowosc
-ksiegowosc
-faktura
-Joanna
-```
+Włączyłem własną listę zakazanych haseł
 
 Lista uzupełnia globalną ochronę Microsoftu. Mechanizm uwzględnia normalizację znaków oraz ocenę punktową hasła, więc nie działa jak prosty zakaz wystąpienia danego słowa.
 
-| Test | Wynik |
-|---|---|
-| Enforce custom list | [uzupełnij] |
-| Próba ustawienia hasła z instrukcji | [zaakceptowane / odrzucone] |
-| Treść komunikatu | [uzupełnij] |
-
-Samo przyjęcie hasła zawierającego nazwę firmy nie wystarcza, żeby uznać konfigurację za błędną. Trzeba uwzględnić sposób oceny całego hasła.
-
 <img width="473" height="420" alt="image" src="https://github.com/user-attachments/assets/d609c1e1-c769-409c-aa10-da69de96cbda" />
 
-
 ## Inteligentna blokada
+
 <img width="715" height="501" alt="image" src="https://github.com/user-attachments/assets/e2b0cc07-f01a-44ca-9746-dbb3ad5ede4d" />
 
 <img width="568" height="535" alt="image" src="https://github.com/user-attachments/assets/fe729fe7-31ec-4ebb-8cfc-979811456cdf" />
-
-
-Ustawiłem:
 
 | Parametr | Wartość |
 |---|---|
 | Lockout threshold | 8 |
 | Lockout duration in seconds | 120 |
 
-Test przeprowadziłem na koncie Pawła Gila.
-
-Smart lockout nie jest prostym licznikiem każdego wpisania złego hasła. Uwzględnia między innymi powtarzające się błędne hasła oraz znane i nieznane miejsca logowania. Dlatego nie zakładam, że blokada pojawi się dokładnie po ósmym kliknięciu.
- |
+Test przeprowadziłem na koncie Pawła
