@@ -19,7 +19,7 @@ Na tym etapie pozostawiłem włączone security defaults. Conditional Access bę
 
 Status `Disabled` na stronie per-user MFA nie oznacza, że konto nie jest chronione przez MFA. Wymóg może pochodzić z security defaults albo Conditional Access.
 
-<img width="782" height="646" alt="image" src="https://github.com/user-attachments/assets/6eba57f5-c0f9-4591-a1d8-ef81fcf05fd3" />
+<img width="1138" height="712" alt="image" src="https://github.com/user-attachments/assets/384ffb32-1be8-4cfc-b2e5-05e53ed93c05" />
 
 <img width="1313" height="576" alt="image" src="https://github.com/user-attachments/assets/27c17b5e-3e3f-466e-b39e-b3d19a1fc378" />
 
