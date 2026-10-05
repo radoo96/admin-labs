@@ -1,6 +1,5 @@
-# Lab 8 — zarządzanie komputerem przez Intune
+# Lab 8 — grupy dynamiczne, blokady, zgodności
 
-W tym labie przygotowałem PC02 jako komputer pracownika zdalnego. Dołączyłem go do Microsoft Entra ID i zarejestrowałem w Intune. Następnie przypisałem ustawienia systemu oraz zasadę zgodności.
 
 PC02 korzysta z połączenia internetowego przez NAT w VirtualBox. Nie jest członkiem lokalnej domeny `ad.zielonydom.test`.
 
