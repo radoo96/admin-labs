@@ -1,23 +1,18 @@
 # Lab 6 — Conditional Access
 
-W tym labie przygotowałem reguły Conditional Access dla Rachmistrza. Celem było zastąpienie security defaults udokumentowanymi zasadami: wymaganiem MFA, blokadą starszego uwierzytelniania i ograniczeniem dostępu pracowników do portali administracyjnych.
-
-## Przygotowanie
-
+- Przygotowanie grupy wykluczeń z kontami awaryjnymi.
+- Utworzenie trzech reguł w trybie próbnym.
+- Sprawdzenie je narzędziem What If i w dzienniku logowań.
+- Przejście z security defaults na Conditional Access.
 
 <img width="690" height="331" alt="image" src="https://github.com/user-attachments/assets/4661b319-741f-45d8-8536-bd0c1ab41869" />
-
-Przed zmianami sprawdziłem rejestrację metod MFA pracowników oraz możliwość logowania kontem awaryjnym.
 
 Utworzyłem grupę zabezpieczeń `GRP-CA-Wykluczenia` z członkostwem Assigned. Dodałem do niej konta `awaryjne01` i `awaryjne02`.
 
 Grupę wykluczyłem z trzech reguł tego labu. Samo utworzenie grupy nie wystarcza — jej wykluczenie trzeba sprawdzić w każdej zasadzie.
 
+
 ## Reguły dostępu
-
-<img width="567" height="846" alt="image" src="https://github.com/user-attachments/assets/2ce518da-8f21-4dbb-8be6-ca29371358ce" />
-
-<img width="622" height="720" alt="image" src="https://github.com/user-attachments/assets/9c9d41a1-b400-46f5-a4b7-64176ba73138" />
 
 | Reguła | Użytkownicy | Zasoby i warunki | Decyzja | Powód |
 |---|---|---|---|---|
@@ -27,10 +22,9 @@ Grupę wykluczyłem z trzech reguł tego labu. Samo utworzenie grupy nie wystarc
 
 Wszystkie trzy reguły mają wykluczenie `GRP-CA-Wykluczenia`.
 
-<img width="707" height="315" alt="image" src="https://github.com/user-attachments/assets/bef295f9-4867-41ce-83e9-927ab36e53ae" />
+<img width="567" height="846" alt="image" src="https://github.com/user-attachments/assets/2ce518da-8f21-4dbb-8be6-ca29371358ce" />
 
-<img width="651" height="380" alt="image" src="https://github.com/user-attachments/assets/b6934c91-7525-4b7b-9e18-4283c167d48b" />
-
+<img width="622" height="720" alt="image" src="https://github.com/user-attachments/assets/9c9d41a1-b400-46f5-a4b7-64176ba73138" />
 
 
 CA002 dotyczy starszego uwierzytelniania wskazanego w warunkach Client apps. Nie jest ogólną blokadą każdego programu pocztowego.
@@ -39,27 +33,25 @@ CA002 dotyczy starszego uwierzytelniania wskazanego w warunkach Client apps. Nie
 
 W tym projekcie grupa `DYN-Pracownicy` korzysta między innymi z atrybutu Department. Zwykłe konta pracowników mają go uzupełnionego, a oddzielne konta administracyjne pozostają poza grupą.
 
-Sprawdziłem członkostwo `adm-michal.bak` przed włączeniem blokady. Sam przedrostek `adm-` w nazwie nie stanowi wykluczenia.
-
 Microsoft Admin Portals obejmuje określoną grupę portali. Nie traktuję tej reguły jako blokady wszystkich API i narzędzi administracyjnych. Uprawnienia do wykonywania operacji nadal wynikają z przypisanych ról.
 
 ## Testy What If
 
 Reguły najpierw ustawiłem w trybie Report-only.
 
+<img width="707" height="315" alt="image" src="https://github.com/user-attachments/assets/bef295f9-4867-41ce-83e9-927ab36e53ae" />
+
+<img width="651" height="380" alt="image" src="https://github.com/user-attachments/assets/b6934c91-7525-4b7b-9e18-4283c167d48b" />
+
+
 W testach wskazywałem użytkownika, zasób i typ aplikacji klienckiej. Dla prób wejścia do portalu wybierałem Browser, a dla CA002 osobno sprawdzałem starszego klienta.
 
-| Scenariusz | Oczekiwany wynik dla reguł labu | Mój wynik |
+| Scenariusz | Oczekiwany wynik dla reguł labu |
 |---|---|---|
-| Paweł → portal administracyjny, Browser | CA001 wymaga MFA, CA003 blokuje | [uzupełnij] |
-| `adm-michal.bak` → portal administracyjny, Browser | CA001 wymaga MFA, CA003 nie dotyczy | [uzupełnij] |
-| Paweł → starszy klient uwierzytelniania | CA002 blokuje | [uzupełnij] |
-| `awaryjne01` → portal administracyjny | Wykluczone z CA001–CA003 | [uzupełnij] |
-| `awaryjne02` → portal administracyjny | Wykluczone z CA001–CA003 | [uzupełnij] |
-
-Jeśli kilka reguł pasuje do logowania, wymagania obowiązują łącznie. Spełnienie MFA nie znosi blokady z innej reguły.
-
-Wykluczenie działa tylko w regule, w której zostało ustawione. Nie stanowi ogólnego zezwolenia na dostęp.
+| Paweł → portal administracyjny, Browser | CA001 wymaga MFA, CA003 blokuje |
+| Paweł → starszy klient uwierzytelniania | CA002 blokuje |
+| `awaryjne01` → portal administracyjny | Wykluczone z CA001–CA003 |
+| `awaryjne02` → portal administracyjny | Wykluczone z CA001–CA003 |
 
 ## Przejście z security defaults
 
