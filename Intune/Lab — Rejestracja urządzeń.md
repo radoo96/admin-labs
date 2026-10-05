@@ -1,4 +1,4 @@
-# Lab — Rejestracja urządzeń w Intune
+# Lab — Rejestracja urządzeń
 
 - Trzy sposoby połączenia urządzenia z Entra ID.
 - Włączenie automatycznej rejestracji w Entra ID Intune
