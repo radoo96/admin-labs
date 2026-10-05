@@ -46,13 +46,6 @@ Reguły najpierw ustawiłem w trybie Report-only.
 
 W testach wskazywałem użytkownika, zasób i typ aplikacji klienckiej. Dla prób wejścia do portalu wybierałem Browser, a dla CA002 osobno sprawdzałem starszego klienta.
 
-| Scenariusz | Oczekiwany wynik dla reguł labu |
-|---|---|---|
-| Paweł → portal administracyjny, Browser | CA001 wymaga MFA, CA003 blokuje |
-| Paweł → starszy klient uwierzytelniania | CA002 blokuje |
-| `awaryjne01` → portal administracyjny | Wykluczone z CA001–CA003 |
-| `awaryjne02` → portal administracyjny | Wykluczone z CA001–CA003 |
-
 ## Przejście z security defaults
 
 <img width="357" height="612" alt="image" src="https://github.com/user-attachments/assets/01b57272-efbf-4088-8bc2-46ff53d1becc" />
@@ -65,44 +58,4 @@ Przygotowałem konfigurację i testy przed przełączeniem ochrony. Po wyłącze
 
 CA003 pozostawiłem w Report-only do sprawdzenia logowania pracownika w dzienniku. Po potwierdzeniu zakresu reguły przetestowałem jej działanie w stanie On.
 
-| Ustawienie | Docelowy stan | Stan w moim środowisku |
-|---|---|---|
-| Security defaults | Disabled | [uzupełnij] |
-| CA001 | On | [uzupełnij] |
-| CA002 | On | [uzupełnij] |
-| CA003 | On po testach | [uzupełnij] |
-
 Report-only nie zastępuje aktywnej ochrony — zapisuje przewidywany wynik, ale nie egzekwuje wymagań reguły.
-
-## Dziennik logowań i test końcowy
-
-W Sign-in logs sprawdziłem konkretne próby logowania, ich czas, zasób oraz wyniki w zakładkach Conditional Access i Report-only.
-
-| Test | Wynik |
-|---|---|
-| CA003 w Report-only — próba wejścia Pawła do portalu | [uzupełnij] |
-| Paweł po włączeniu CA003 — dostęp do portalu | [uzupełnij] |
-| `adm-michal.bak` — dostęp do portalu | [uzupełnij] |
-| CA001 — wynik oceny wymagania MFA | [uzupełnij] |
-| Ponowne sprawdzenie dostępu awaryjnego | [uzupełnij] |
-
-Brak nowego powiadomienia Authenticatora nie oznacza, że CA001 nie działa. Wymaganie MFA mogło zostać spełnione wcześniej — sprawdzam to w szczegółach uwierzytelnienia.
-
-What If pomaga ocenić zakres zasad, ale nie zastępuje rzeczywistego testu logowania.
-
-![Reguły Conditional Access](zrzuty/lab06.png)
-
-## Konta awaryjne i cofnięcie zmiany
-
-Konta awaryjne pozostają poza regułami tego labu, ale nadal muszą mieć przygotowaną działającą metodę uwierzytelniania. Wykluczenie z CA nie usuwa wymagań MFA narzuconych przez Microsoft.
-
-Gdy reguła blokuje niewłaściwe konto, korzystam ze sprawdzonego dostępu awaryjnego, wyłączam problematyczną regułę i poprawiam jej zakres. Następnie ponawiam testy.
-
-## Moje uwagi
-
-- Najważniejszy wynik testów: **[uzupełnij]**.
-- Problem podczas wdrożenia: **[uzupełnij albo wpisz „brak”]**.
-- Rozwiązanie: **[uzupełnij]**.
-- Data ostatniego przeglądu reguł i wykluczeń: **[uzupełnij]**.
-
-[← Lista labów Entra ID](README.md)
