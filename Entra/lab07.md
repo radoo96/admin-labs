@@ -118,6 +118,9 @@ W ramach symulacji oznaczyłem testowe konto Pawła przez **Confirm user comprom
 
 Było to ręczne oznaczenie konta na potrzeby testu, a nie dowód wykrycia rzeczywistego wycieku hasła.
 
+<img width="1472" height="593" alt="image" src="https://github.com/user-attachments/assets/268f357a-f2b1-42fe-bdd1-e93818443ee9" />
+
+
 ## Alerty i stan końcowy
 
 Alerty o ryzyku High oraz cotygodniowe podsumowanie skierowałem na monitorowaną skrzynkę użytkownika, nie na konto administracyjne bez poczty.
