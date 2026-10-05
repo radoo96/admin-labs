@@ -1,4 +1,4 @@
-# Lab — Intune - rejestracja, grupy dynamiczne, blokady, zgodności
+# Lab — rejestracja, grupy dynamiczne, blokady, zgodności
 
 
 PC02 korzysta z połączenia internetowego przez NAT w VirtualBox. Nie jest członkiem lokalnej domeny `ad.zielonydom.test`.
