@@ -1,11 +1,11 @@
-# Lab 5 — Reset hasła, Temporary Access Pass i smart lockout
+# Lab 5 — Reset hasła, TAP i inteligenta blokada
 
 - Włączenie samoobsługowy reset hasła (SSPR) dla wszystkich pracowników.
-- Ile metod potrzeba do resetu, i ustawienie rejestrację.
-- Przetestujesz reset hasła
-- Dasz Ewie rolę do wydawania kodu jednorazowego (TAP) i pomożesz Oli.
-- Zablokujesz hasła z nazwą firmy.
-- Ustawisz inteligentną blokadę konta i sprawdzisz, jak działa.
+- Ile metod potrzeba do resetu, i ustawienie rejestracji
+- Przetestowanie resetu hasła
+- Danie Ewie roli do wydawania kodu jednorazowego (TAP)
+- Zablokowanie hasła
+- Ustawienie inteligetnej blokady hasła i przetestowanie
 
 ## Samoobsługowy reset hasła
 
