@@ -1,4 +1,4 @@
-# Lab 6 — Conditional Access od podstaw
+# Lab 6 — Conditional Access
 
 W tym labie przygotowałem reguły Conditional Access dla Rachmistrza. Celem było zastąpienie security defaults udokumentowanymi zasadami: wymaganiem MFA, blokadą starszego uwierzytelniania i ograniczeniem dostępu pracowników do portali administracyjnych.
 
