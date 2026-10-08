@@ -1,8 +1,4 @@
-# Lab 10 — synchronizacja Active Directory z Entra ID
-
-W tym labie połączyłem lokalne Active Directory z Microsoft Entra ID przez Cloud Sync. Celem było udostępnienie pracownikom biura Microsoft 365 z loginem UPN i hasłem używanym w lokalnej domenie.
-
-Agent działa na DC01. Logowanie lokalne sprawdzałem na PC01, a dostęp do Microsoft 365 w przeglądarce.
+# Synchronizacja Active Directory z Entra ID
 
 ## Przygotowanie kont
 
