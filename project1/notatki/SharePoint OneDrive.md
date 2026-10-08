@@ -1,4 +1,4 @@
-# Lab 13 — SharePoint i OneDrive
+# SharePoint/OneDrive
 
 W tym ćwiczeniu przygotowałem wspólne miejsce na dokumenty sprzedaży w SharePoint. Sprawdziłem dostęp pracowników, udostępnianie plików oraz odzyskiwanie usuniętego dokumentu i jego wcześniejszej wersji.
 
