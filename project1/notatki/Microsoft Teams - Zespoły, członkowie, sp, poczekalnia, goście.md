@@ -1,4 +1,4 @@
-# Lab 14 — Microsoft Teams
+# Microsoft Teams - Zespoły, członkowie, sp, poczekalnia, goście
 
 W tym ćwiczeniu przygotowałem zespół biura w Teams, kanały do rozmów i prywatny kanał dla wybranych osób. Sprawdziłem też przechowywanie plików w SharePoint, ustawienia poczekalni oraz dostęp gościa.
 
