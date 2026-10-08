@@ -1,4 +1,4 @@
-# Lab 4 — foldery i uprawnienia
+# AD - foldery i uprawnienia
 
 W labie utworzyłem wspólne foldery dla Zielonego Domu. Dostęp przypisałem grupom utworzonym w labie 2, a mapowanie dysku S: skonfigurowałem przez GPO.
 
