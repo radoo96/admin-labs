@@ -1,4 +1,4 @@
-# Lab 2 — konta, grupy i OU w Active Directory
+# Konta, grupy i OU w Active Directory
 
 - Utworzenie folderów w AD (OU)
 - Założenie 5 kont pracowników i 2 konta dla siebie: zwykłe i administracyjne.
