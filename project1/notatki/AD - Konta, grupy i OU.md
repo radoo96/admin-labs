@@ -1,4 +1,4 @@
-# Konta, grupy i OU w Active Directory
+# AD - Konta, grupy i OU
 
 - Utworzenie folderów w AD (OU)
 - Założenie 5 kont pracowników i 2 konta dla siebie: zwykłe i administracyjne.
