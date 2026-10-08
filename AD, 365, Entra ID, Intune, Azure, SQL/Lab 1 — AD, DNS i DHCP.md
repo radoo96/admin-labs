@@ -1,4 +1,4 @@
-# Lab 1 — AD, DNS i DHCP
+# Windows Server 2025 — AD, DNS i DHCP
 
 - Utworzenie sieci biura FIRMA-net w VirtualBox, bez DHCP.
 - Zainstalowane Windows Server 2025 z interfejsem graficznym.
