@@ -1,7 +1,4 @@
-# Lab 12 — Exchange Online
-
-W tym labie skonfigurowałem wspólną skrzynkę biura, listę dystrybucyjną sprzedaży i automatyczną odpowiedź dla pracownika.
-Korzystałem z Microsoft 365 admin center, Exchange admin center i Outlooka w przeglądarce.
+# Exchange Online
 
 ## Skrzynki i adresy
 
