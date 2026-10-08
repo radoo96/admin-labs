@@ -1,10 +1,4 @@
-# Lab 1 — instalacja kontrolera domeny
-
-W ćwiczeniu skonfigurowałem domenę `ad.zielonydom.test` i dołączyłem do niej komputer z Windows 11 Pro. Całość działa w VirtualBoxie.
-
-- Instalacja DC01, zmienienie nazwy serwera i ustawienie stałego adresu IP.
-- Dodanie roli AD DS i utworzenie lasu `ad.zielonydom.test`.
-- Na PC01 ustawienie DNS na `192.168.10.10`.
+- Na PC01 ustawienie DNS kontrolera domeny
 - Dołączenie PC01 do domeny i sprawdzenie logowania kontem domenowym.
 
 
