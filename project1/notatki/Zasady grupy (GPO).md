@@ -1,4 +1,4 @@
-# Lab 3 — zasady grupy (GPO)
+# Zasady grupy (GPO)
 
 Zostały skonfigurowane trzy zasady grupy w domenie `ad.zielonydom.test`. Ustawienia przygotowałem na DC01 w konsoli Group Policy Management, a ich działanie sprawdzałem na PC01.
 
