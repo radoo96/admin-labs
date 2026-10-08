@@ -1,4 +1,4 @@
-# Lab 7 — MFA i Conditional Access
+# MFA i Conditional Access
 
 W tym labie skonfigurowałem własne zasady dostępu do Microsoft 365: wymaganie MFA oraz blokowanie starszych metod uwierzytelniania. Sprawdziłem też samodzielny reset hasła i szczegóły logowań użytkowników.
 
