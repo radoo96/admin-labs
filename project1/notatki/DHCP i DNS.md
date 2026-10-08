@@ -1,4 +1,4 @@
-# Lab 5 — DHCP i DNS
+# DHCP i DNS
 
 W tym labie uruchomiłem DHCP na DC01 i przełączyłem PC01 z ręcznej konfiguracji sieci na automatyczną. Następnie przygotowałem rezerwację adresu, dodałem rekord DNS i sprawdziłem zachowanie komputera podczas awarii DHCP.
 
